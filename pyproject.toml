@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ecs-fastapi-efs-sqlite-poc"
+version = "0.1.0"
+description = ""
+authors = ["meetsboy <101881214+meetsboy@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+# 開発環境のみの依存関係をここに記述
+pytest = "^6.2.5"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
