@@ -18,7 +18,15 @@
 				"ms-python.python",
 				"njpwerner.autodocstring",
 				"tamasfe.even-better-toml"
-			]
+			],
+			"settings": {
+				"python.analysis.extraPaths": [
+					"/usr/local/lib/python3.11/site-packages"
+				],
+				"python.autoComplete.extraPaths": [
+					"/usr/local/lib/python3.11/site-packages"
+				]
+			}
 		}
 	},
 	"features": {
